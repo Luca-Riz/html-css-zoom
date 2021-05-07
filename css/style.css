@@ -26,6 +26,7 @@ header .container{
     align-items: flex-start;
     width: 100%;
     height: 50px;
+    background-color: black;
 }
 
 header .container div {
@@ -48,6 +49,7 @@ main .container {
     justify-content: center                ;
     height: calc(100vh - 150px);
     overflow-y: auto;
+    background-color: black;
 }
 
 main .container .user {
@@ -80,40 +82,48 @@ main .container .user .name {
 
 footer {
     height: 100px;
-    background-color: sienna;
-}
-
-footer div {
+    background-color: #222222;
     display: flex;
+    justify-content: space-between;
+    color: white;
 }
 
-footer div div {
-    display: inline-block;
+footer .sx, footer .f-center, footer .dx {
+    display: flex;
 }
 
 footer .container {
     display: flex;
     align-items: center;
-    color: white;
-    background-color: aqua;
 }
 
-footer .container .item {
+footer .item {
+    display: inline-block;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100px;
-    width: 60px;
     margin: 0 10px;
 }
 
-footer .container .ico i {
-    font-size: 30px;
+footer .ico i {
+    font-size: 40px;
 }
 
-footer .container .text {
+footer .text {
     margin: 5px;
+}
+
+.green {
+    color: #4bc800;
+}
+
+footer .dx {
+    align-items: center;
+    padding: 0 20px;
+    color: red;
+    background-color: #4a4a4a;
 }
 
 
